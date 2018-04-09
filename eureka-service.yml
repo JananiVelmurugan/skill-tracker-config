@@ -1,9 +1,6 @@
-server: 
+server:
   port: 8761
-  
 eureka:
   client:
     registerWithEureka: false
-    fetchRegistery: false
-  server:
-    enableSelfPreservation: false
+    fetchRegistry: false
